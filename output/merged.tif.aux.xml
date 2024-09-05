@@ -1,0 +1,15 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="class_names">{1: 'Grapevine', 2: 'Root_Crops', 3: 'Permanent_Grassland', 4: 'Winter_cereals', 5: 'hedges_normalized', 6: 'Forest_Trees', 7: 'Cultivated_Grassland', 8: 'Other_Cereals', 9: 'Legumes', 10: 'Orchards_Berries', 11: 'Hops', 12: 'Vegetables', 13: 'Sunflower', 14: 'Miscellaneous', 15: 'Rapeseed', 16: 'Fallow', 17: 'Summer_cereals', 18: 'Maize'}</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">18</MDI>
+      <MDI key="STATISTICS_MEAN">2.1118031032638</MDI>
+      <MDI key="STATISTICS_MINIMUM">1</MDI>
+      <MDI key="STATISTICS_STDDEV">3.2545245801293</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
