@@ -3,7 +3,7 @@
 This repository contains the code used to modify and merge data for the
 Birdwatch Flanders visualizations.
 
-Note: `/qgis` contains the QGIS (3.34.10-Prizren LTR) project file used to create the visualizations as well as the labels
+Note: `/qgis` contains the QGIS (3.34.10-Prizren LTR) project file used to create the visualizations as well as the labels. To use the symbology load the dataset from `/data/merged.tiff`
 
 ## Modifications to the datasets
 
