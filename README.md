@@ -3,6 +3,8 @@
 This repository contains the code used to modify and merge data for the
 Birdwatch Flanders visualizations.
 
+Note: `/qgis` contains the QGIS (3.34.10-Prizren LTR) project file used to create the visualizations as well as the labels
+
 ## Modifications to the datasets
 
     - The hedges dataset originally contained values ranging from 0 to just over 9700. I am assuming this is a miscalculation problem so I am dividing all values by 10000 to get our desired range of 0 to 0.97.
