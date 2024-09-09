@@ -1,5 +1,21 @@
 .DS_Store
 .venv/
-# data/
-# /output/
-
+data/
+/output/
+data_Germany/
+data_Germany/Cultivated_Grassland.tiff
+data_Germany/Fallow.tiff
+data_Germany/Hops.tiff
+data_Germany/Legumes.tiff
+data_Germany/Maize.tiff
+data_Germany/Miscellaneous.tiff
+data_Germany/No_agriculture.tiff
+data_Germany/Orchards_Berries.tiff
+data_Germany/Permanent_Grassland.tiff
+data_Germany/Rapeseed.tiff
+data_Germany/Root_Crops.tiff
+data_Germany/Summer_Cereals.tiff
+data_Germany/Sunflower.tiff
+data_Germany/SWF.tiff
+data_Germany/Vegetables.tiff
+data_Germany/Winter_Cereals.tiff
