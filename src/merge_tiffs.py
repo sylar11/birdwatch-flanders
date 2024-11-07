@@ -91,6 +91,8 @@ def merge_tiff_files(folder_path: str, output_filename: str, nodata_value: int =
     print(f"Merged TIFF saved as: {output_tiff}")
 
 if __name__ == "__main__":
+    #C:\Users\bventura\OneDrive - Scientific Network South Tyrol\VeB\05_Code\Python\birdwatch-flanders\data_Germany
+    #C:\Users\bventura\OneDrive - Scientific Network South Tyrol\VeB\05_Code\Python\birdwatch-flanders\data
     folder_path = "data_Germany/"
     output_filename = "merged_Germany.tiff"
     merge_tiff_files(folder_path, output_filename)
