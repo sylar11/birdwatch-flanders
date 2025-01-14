@@ -26,5 +26,5 @@ def validate_tiff(tiff_file: str) -> None:
         pp(f"Class names: {class_names}")
 
 if __name__ == "__main__":
-    tiff_file = "../data/merged.tiff"
+    tiff_file = "data_LT/merged.tiff" #"../data/merged.tiff"
     validate_tiff(tiff_file)
