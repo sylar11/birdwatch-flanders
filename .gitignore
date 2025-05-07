@@ -72,3 +72,10 @@ data_trentino/Trentino_crop_types_eng.prj
 data_trentino/Trentino_crop_types_eng.dbf
 trentino_aggregation.qgz
 trentino_aggregation.qgz
+trentino_aggregation.qgz
+trentino_aggregation.qgz
+data_trentino/slope_100_100_trentino.tif
+data_trentino/slope_100_100_trentino.tif.aux.xml
+data_trentino/slope_200_200_trentino.tif
+data_trentino/slope_200_200_trentino.tif.aux.xml
+trentino_aggregation.qgz
