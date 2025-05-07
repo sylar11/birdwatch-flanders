@@ -79,3 +79,11 @@ data_trentino/slope_100_100_trentino.tif.aux.xml
 data_trentino/slope_200_200_trentino.tif
 data_trentino/slope_200_200_trentino.tif.aux.xml
 trentino_aggregation.qgz
+trentino_aggregation.qgz
+data_trentino/Trentino_slope/README.txt
+data_trentino/Trentino_slope/slope_Trentino_3035.tiff
+data_trentino/Trentino_slope/Trentino_elev_dtm_copernicus_v11_84m.tfw
+data_trentino/Trentino_slope/Trentino_elev_dtm_copernicus_v11_84m.tif
+data_trentino/Trentino_slope/Trentino_elev_slope_copernicus_v11_84m.tfw
+data_trentino/Trentino_slope/Trentino_elev_slope_copernicus_v11_84m.tif
+data_trentino/Trentino_slope/Trentino_elev_slope_copernicus_v11_84m.tif.aux.xml
