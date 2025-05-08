@@ -87,3 +87,12 @@ data_trentino/Trentino_slope/Trentino_elev_dtm_copernicus_v11_84m.tif
 data_trentino/Trentino_slope/Trentino_elev_slope_copernicus_v11_84m.tfw
 data_trentino/Trentino_slope/Trentino_elev_slope_copernicus_v11_84m.tif
 data_trentino/Trentino_slope/Trentino_elev_slope_copernicus_v11_84m.tif.aux.xml
+trentino_aggregation.qgz
+data_trentino/rasters_COP90.tar.gz
+data_trentino/viz.tar.gz
+data_trentino/rasters_COP90/output_hh.tif
+data_trentino/Trentino_slope/slope_Trentino_3035_Birdwatch.tiff
+data_trentino/Trentino_slope/slope_Trentino_3035_Birdwatch.tiff.aux.xml
+data_trentino/Trentino_slope/slope_Trentino_3035.tiff.aux.xml
+data_trentino/viz/viz.hh_slope.tif
+data_trentino/viz/viz.hh_slope.tif.aux.xml
