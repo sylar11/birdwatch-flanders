@@ -1,0 +1,52 @@
+CASE WHEN DESC_APPE = 'ACQUE' THEN 'WATERS'
+WHEN DESC_APPE = 'ARBORETO CONSOCIABILE' THEN 'CONSOCIABLE ARBORETUM'
+WHEN DESC_APPE = 'ARBORETO PROMISCUO' THEN 'PROMISCUOUS ARBORETUM'
+WHEN DESC_APPE = 'BOSCO' THEN 'WOODS'
+WHEN DESC_APPE = 'COLTIVAZIONI ARBOREE SPECIALIZZ. NON SPECIFICATE' THEN 'SPECIALIZED TREE CROPS. NOT SPECIFIED'
+WHEN DESC_APPE = 'FABBRICATO GENERICO - STRADA' THEN 'GENERIC BUILDING - ROAD'
+WHEN DESC_APPE = 'PASCOLO ARBORATO (BOSCO CEDUO) TARA 50%' THEN 'ARBOREAL PASTURE (COPPICE) TARE 50%'
+WHEN DESC_APPE = 'PASCOLO CESPUGLIATO (TARA 20%)' THEN 'SHRUB PASTURE (TARE 20%)'
+WHEN DESC_APPE = 'PASCOLO POLIFITA (TIPO ALPEGGI) SENZA TARE' THEN 'POLYPHYTIC PASTURE (ALPINE TYPE) WITHOUT TARES'
+WHEN DESC_APPE = 'SEMINATIVO DA FOTOINTERPRETAZIONE' THEN 'ARABLE LAND BY PHOTOINTERPRETATION'
+WHEN DESC_APPE = 'SERRE' THEN 'GREENHOUSES'
+WHEN DESC_APPE = 'TARE' THEN 'TARE'
+ELSE 'Other'
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+CASE WHEN DESCR_ENG = 'Meadow (half-sheared)' OR DESCR_ENG = 'Alpe (without tare)' OR DESCR_ENG = 'Biennial cut meadow (tare 20%)/S28-1 Dry meadows and low bog meadows'  OR DESCR_ENG = 'Biennial cut meadow (tare 20%)/S28-2 Species-rich mountain meadows' OR DESCR_ENG = 'Biennial cut meadow/S28-2 Species-rich mountain meadows' OR DESCR_ENG = 'Lawn special area (tare 20%)' OR DESCR_ENG = 'Lawn special area (tare 50%)' OR DESCR_ENG = 'Meadow (Half Sheared Tara 20%)' OR DESCR_ENG = 'Meadow (half-sheared)' OR DESCR_ENG = 'Meadow (half-sheared)/S28-1 poor meadows and fen meadows' OR DESCR_ENG = 'Mixed Alternate Meadow' OR DESCR_ENG = 'Pasture' OR DESCR_ENG = 'Pasture (rock 20%)' OR DESCR_ENG = 'Potential pasture (tare 20%)
+' THEN 'Cultivated Grassland'
+WHEN DESCR_ENG = 'Arable land fallow - EFA
+' THEN 'Fallow' 
+WHEN DESCR_ENG = 'Alpe (stocked 20%)' OR DESCR_ENG = 'Alpe (stocked 50%)' OR  DESCR_ENG = 'Alpeggio (without tares)/S28-6 Wooded pastures' OR  DESCR_ENG = 'Biennial cut meadow (tare 20%)/S28-4 Meadows rich in tree species' OR  DESCR_ENG = 'Biennial cut meadow/S28-4 Species-rich meadows with trees' OR  DESCR_ENG = 'Biennial cut meadow/S28-5 Lush meadows with trees' OR  DESCR_ENG = 'Meadow special area (tare 20%)/S28-4 Meadows rich in wooded species' OR  DESCR_ENG = 'Meadow special area (tare 20%)/S28-5 Lush meadows with trees' OR  DESCR_ENG = 'Meadow special area (tare 50%)/S28-4 Meadows rich in wooded species' OR  DESCR_ENG = 'Meadow special area (tare 50%)/S28-5 Lush meadows with trees' OR  DESCR_ENG = 'Meadow special area/S28-4 Species-rich meadows with trees' OR  DESCR_ENG = 'Meadow special area/S28-5 Lush meadows with trees' OR  DESCR_ENG = 'Pasture (rock 20%)/S28-6 Wooded pastures' OR  DESCR_ENG = 'Pasture (rock 50%)/S28-6 Wooded pastures' OR  DESCR_ENG = 'Pasture (tare 20%)/S28-6 Wooded pastures' OR  DESCR_ENG = 'Pasture (tare 50%)/S28-6 Wooded pastures' OR  DESCR_ENG = 'Pasture (trees 20%)/S28-6 Wooded pastures' OR  DESCR_ENG = 'Pasture/S28-6 Wooded pastures' OR  DESCR_ENG = 'Stable meadow (tare 20%)/S28-4 Meadows rich in wooded species' OR  DESCR_ENG = 'Stable meadow (tare 20%)/S28-5 Lush meadows with trees' OR  DESCR_ENG = 'Stable meadow/S28-4 Species-rich meadows with trees' OR  DESCR_ENG = 'Stable meadow/S28-5 Lush meadows with trees' OR  DESCR_ENG = 'Willow (Tara 50%)' OR  DESCR_ENG = 'Willow (Tare 20%)' 
+THEN 'Forest Trees / SRF'
+WHEN DESCR_ENG = 'Alfalfa' OR DESCR_ENG = 'Clover'
+THEN 'Legumes'
+WHEN DESCR_ENG = 'Corn' 
+THEN 'Maize'
+WHEN DESCR_ENG = 'Industrial Medicinal Plants' OR DESCR_ENG = 'Plant cultivation'
+THEN 'Miscellaneous'
+WHEN DESCR_ENG = 'Bosco/S28-8 Peat bogs and alders' OR  DESCR_ENG = 'Forest' OR  DESCR_ENG = 'Greenhouses' OR  DESCR_ENG = 'Hedges' OR  DESCR_ENG = 'Hedges/S28-9 Hedges' OR  DESCR_ENG = 'Infrastructures' OR  DESCR_ENG = 'Other Areas' OR  DESCR_ENG = 'Other crops/S28-3 Reedbeds' OR  DESCR_ENG = 'Other crops/S28-8 Peat and alder bogs' OR  DESCR_ENG = 'Water' 
+THEN 'No Agriculture'
+WHEN DESCR_ENG = 'Apple' OR DESCR_ENG = 'Apricot' OR  DESCR_ENG = 'Astoni plants fruit' OR  DESCR_ENG = 'Berry fruit (without strawberry)' OR  DESCR_ENG = 'Biennial cut meadow (tare 20%)/S28-7 Chestnut groves and meadows with sparse fruit trees' OR  DESCR_ENG = 'Castagneto/S28-7 Chestnut groves and meadows with sparse fruit trees' OR  DESCR_ENG = 'Cherry' OR  DESCR_ENG = 'Chestnut' OR  DESCR_ENG = 'Currants' OR  DESCR_ENG = 'Meadow special area (tare 20%)/S28-7 Chestnut groves and meadows with sparse fruit trees' OR  DESCR_ENG = 'Meadow special area/S28-7 Chestnut groves and meadows with sparse fruit trees' OR  DESCR_ENG = 'Olive' OR  DESCR_ENG = 'Orchard being planted' OR  DESCR_ENG = 'Other fruit' OR  DESCR_ENG = 'Pear' OR  DESCR_ENG = 'Plums' OR  DESCR_ENG = 'Strawberry' OR  DESCR_ENG = 'Table grapes' OR  DESCR_ENG = 'Vineyard under planting' OR  DESCR_ENG = 'Viticulture' 
+THEN 'Orchards and Berries'
+WHEN DESCR_ENG = 'Grain' 
+THEN 'Other Cereals'
+WHEN DESCR_ENG = 'Alpe (tare 70%)' OR DESCR_ENG = 'Meadow (Permanent Meadow Tara 20%)' OR  DESCR_ENG = 'Meadow (permanent meadow)' OR  DESCR_ENG = 'Meadow (permanent meadow)/S28-1 poor meadows and fen meadows' OR  DESCR_ENG = 'Meadow (permanent meadow)/S28-2 species-rich mountain meadows' OR  DESCR_ENG = 'Meadow special area' OR  DESCR_ENG = 'Meadow special area (tare 20%)/S28-1 Dry meadows and low bog meadows' OR  DESCR_ENG = 'Meadow special area (tare 20%)/S28-2 Species-rich mountain meadows' OR  DESCR_ENG = 'Meadow special area (tare 50%)/S28-1 Dry meadows and low bog meadows' OR  DESCR_ENG = 'Meadow special area (tare 50%)/S28-2 Species-rich mountain meadows' OR  DESCR_ENG = 'Meadow special area/S28-1 poor meadows and fen meadows' OR  DESCR_ENG = 'Meadow special area/S28-2 species-rich mountain meadows' OR  DESCR_ENG = 'Potential pasture (50% tare)' OR  DESCR_ENG = 'Stable meadow (tare 20%)/S28-1 Dry meadows and meadows with low bog' OR  DESCR_ENG = 'Stable meadow (tare 20%)/S28-2 Species-rich mountain meadows'
+THEN 'Permanent Grassland'
+WHEN DESCR_ENG = 'Asparagus' OR DESCR_ENG = 'Cabbage' OR  DESCR_ENG = 'Cauliflower' OR  DESCR_ENG = 'Field vegetable cultivation' OR  DESCR_ENG = 'Radish'  OR  DESCR_ENG = 'Salads'
+THEN 'Vegetables'
+ELSE 'Other'
+END
+
