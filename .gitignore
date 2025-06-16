@@ -114,3 +114,13 @@ data_trentino/Trentino_crop_types_eng_LPIS_multypol.dbf
 data_trentino/Trentino_crop_types_eng_LPIS_multypol.prj
 data_trentino/Trentino_crop_types_eng_LPIS_multypol.shp
 data_trentino/Trentino_crop_types_eng_LPIS_multypol.shx
+data_trentino/Trentino_slope.zip
+.gitignore
+data_trentino/Trentino_slope/Trentino_elev_200x200m_LAEA.tif.aux.xml
+data_trentino/Trentino_slope/Trentino_elev_200x200m.tif
+data_trentino/Trentino_slope/Trentino_elev_200x200m.tif.aux.xml
+data_trentino/Trentino_slope/Trentino_slope_200x200m_LAEA.tif
+data_trentino/Trentino_slope/Trentino_slope_200x200m_LAEA.tif.aux.xml
+data_trentino/Trentino_slope/Trentino_slope_200x200m.tif
+data_trentino/Trentino_slope/Trentino_slope_200x200m.tif.aux.xml
+data_trentino/Trentino_slope/Trentino_elev_200x200m_LAEA.tif
